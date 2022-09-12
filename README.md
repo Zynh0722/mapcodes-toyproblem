@@ -1,5 +1,8 @@
 # Mapcodes tp
 
+### Prerequisites
+ - [node lts or greater](https://nodejs.org/en/)
+
 ### For Mac/*nix
 1. run `npm run init` in the root directory
 2. Thats it, you're cool, go solve the problem
