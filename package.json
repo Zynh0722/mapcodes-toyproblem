@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "generateCodes": "node generateCodes.mjs"
+    "test-js": "npx jest",
+    "test-py": "echo no tests yet\n",
+    "init": "npm ci && cp example.env .env && npm run generateCodes",
+    "generateCodes": "node lib/generateFiles.mjs"
   },
   "keywords": [],
   "author": "",
