@@ -18,9 +18,9 @@
  - `npm start`
 
 #### Python
- - `npm run run-py`
+ - `npm run run-py`\
  if the above doesn't work
- - `python problem/parse_map_code.py`
+ - `python problem/parse_map_code.py`\
  if the above doesn't work, figure out your python
 
 ## The Problem
