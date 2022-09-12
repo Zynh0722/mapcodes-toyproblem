@@ -6,6 +6,8 @@
   "scripts": {
     "test-js": "npx jest",
     "test-py": "echo no tests yet\n",
+    "run-py": "python problem/parse_map_code.py",
+    "start": "node problem/parseMapCode.mjs",
     "init": "npm ci && cp example.env .env && npm run generateCodes",
     "generateCodes": "node lib/generateFiles.mjs"
   },

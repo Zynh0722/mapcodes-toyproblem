@@ -13,6 +13,16 @@
 3. run `npm run generateCodes`
 4. Code or something idk
 
+### How to run your code
+#### Javascript
+ - `npm start`
+
+#### Python
+ - `npm run run-py`
+ if the above doesn't work
+ - `python problem/parse_map_code.py`
+ if the above doesn't work, figure out your python
+
 ## The Problem
 
 The goal of this problem is to read in the file `map-codes.txt`,
