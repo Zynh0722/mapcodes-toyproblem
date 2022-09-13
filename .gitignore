@@ -1,4 +1,12 @@
+# NPM modules
 node_modules/
+
+# Environment file
 .env
-map-codes.txt
+
+# Compiled PEG
 fileParser.js
+
+# Generated input and output files
+map-codes.txt
+parsed-map-codes.txt

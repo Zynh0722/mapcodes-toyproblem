@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-js": "npx jest",
-    "test-py": "echo no tests yet\n",
+    "test": "node test/testOutputFile.mjs",
     "run-py": "python problem/parse_map_code.py",
     "start": "node problem/parseMapCode.mjs",
     "init": "npm ci && cp example.env .env && npm run generateCodes && npx -y peggy lib/fileParser.pegjs",
@@ -15,6 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.0.1",
     "dotenv": "^16.0.2"
   }
 }
