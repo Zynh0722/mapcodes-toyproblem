@@ -23,6 +23,12 @@
  - `python problem/parse_map_code.py`\
  if the above doesn't work, figure out your python
 
+### How to test your code
+1. run your code
+2. `npm test`
+note: you must rerun your code each time you want to test, as the tests
+don't run your code, they simply check your output
+
 ## The Problem
 
 The goal of this problem is to read in the file `map-codes.txt`,
