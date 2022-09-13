@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test/testOutputFile.mjs",
+    "test": "node test/output.test.mjs",
     "run-py": "python problem/parse_map_code.py",
     "start": "node problem/parseMapCode.mjs",
     "init": "npm ci && cp example.env .env && npm run generateCodes && npx -y peggy lib/fileParser.pegjs",
