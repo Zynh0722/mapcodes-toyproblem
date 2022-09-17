@@ -41,7 +41,7 @@ for (let i = 0; i < zippedCodeLists.length; i++) {
     const compiledInputCodes = iCodes.reduce(reduceCodes, {});
 
     for (const tag in compiledInputCodes) {
-        if (!(compiledInputCodes[tag].sort().join(',') == compilesOutputCodes[tag].sort().join(',')))
+        if (!(compiledInputCodes[tag]?.sort().join(',') == compilesOutputCodes[tag]?.sort().join(',')))
             throw `Incorrect values: MapCode ${i+1}`
     }
 }
